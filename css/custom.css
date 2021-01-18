@@ -33,6 +33,7 @@
     width: 100px;
 }
 
-.demo {
-
+.feature .feature-box .feature-content{
+    margin-top: 10px !important;
 }
+
