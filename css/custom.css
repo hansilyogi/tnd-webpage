@@ -37,3 +37,28 @@
     margin-top: 10px !important;
 }
 
+@media screen and (min-width: 601px) {
+    /* .aboutus .aboutus-title {
+      font-size: 30px !important;
+      margin-left: 10px;
+    }
+
+    .feature-box .clearfix .feature-content{
+        margin-left:  10px !important;
+    } */
+}
+  
+@media screen and (max-width: 600px) {
+    .aboutus .aboutus-title {
+      font-size: 20px !important;
+      margin-left: 65px !important;
+    }
+
+    .feature-box .clearfix .feature-content{
+        margin-left:  40px !important;
+    }
+
+    .aboutus-banner img{
+        display: none;
+    }
+}

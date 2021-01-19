@@ -46,7 +46,7 @@ $data_2 =  $result_user['Data'];
                             <div class="col-lg-3 col-md-4">
                                 <div class="b-logo">
                                     <a href="index.html">
-                                        <img src="<?php echo $data_2[$i]['img']?>" alt="Logo">
+                                        <img src="img/demo.png" alt="Logo">
                                     </a>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ $data_2 =  $result_user['Data'];
                                                 </div>
                                             </div>
                                         </div>
-                                        <button type="button" class="btnSubmit">Submit</button>
+                                        <button type="button" class="btnSubmit text-break" style="width:65px;">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ $data_2 =  $result_user['Data'];
                                 <div class="row">
                                     <div class="col-3 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
                                         <div class="aboutus">
-                                            <h2 class="aboutus-title"><?php echo $data_2[0]['name'] ?></h2>
+                                            <h2 class="aboutus-title text-break"><?php echo $data_2[0]['name'] ?></h2>
                                             <div class="feature">
                                                 <div class="feature-box">
                                                     <div class="clearfix">
@@ -200,17 +200,11 @@ $data_2 =  $result_user['Data'];
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <h5 class="aboutus-text"><b> Mobile : </b> <?php echo $data_2[0]['mobile'] ?></h5>
-                                            <h5 class="aboutus-text"><b> Email : </b> <?php echo $data_2[0]['email'] ?></h5>
-                                            <h5 class="aboutus-text"><b> Address : </b> <?php echo $data_2[0]['address'] ?></h5>
-                                            <h5 class="aboutus-text"><b> Date of Birth : </b> <?php echo $data_2[0]['date_of_birth'] ?></h5>
-                                            <h5 class="aboutus-text"><b> Gender : </b> <?php echo $data_2[0]['gender'] ?></h5>
-                                            <h5 class="aboutus-text"><b> Company Name : </b> <?php echo $data_2[0]['company_name'] ?></h5> -->
                                         </div>
                                     </div>
                                     <div class="col-3 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">
                                         <div class="aboutus-banner">
-                                            <img src="<?php echo $data_2[0]['img']?>" alt="">
+                                            <img src="<?php echo $data_2[0]['img']?>" alt="" class="img-fluid">
                                         </div><br><br>
                                     </div>
                                     <div class="col-4 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center">

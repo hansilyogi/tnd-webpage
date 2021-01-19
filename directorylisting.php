@@ -99,10 +99,10 @@ $data_category = $newcategory['Data'];
                                                     <img class="img-fluid" src="<?php echo $data[$i]['img'] ?>" style="border:1px solid black; height:150px;"/>
                                                 </div>
                                                 <div class="tn-title col-6">
-                                                    <a href="" class="text-break"><i class="fas fa-user-tie" style="color : #007bff; width: 30px"></i><?php echo $data[$i]['name'] ?></a><br>
-                                                    <a href="" class="text-break"><i class="fas fa-map-marked-alt" style="color : #007bff; width: 30px"></i> <?php echo $data[$i]['company_name'] ?></a><br>
-                                                    <a href="" class="text-break"><i class="fas fa-mobile-alt" style="color : #007bff; width: 30px"></i> <?php echo $data[$i]['mobile'] ?></a><br>
-                                                    <a href="" class="text-break"><i class="fas fa-envelope-square" style="color : #007bff; width: 30px"></i> <?php echo $data[$i]['email'] ?></a><br>
+                                                    <a href="userprofile.php?uid=<?php echo $data[$i]['_id'] ?>" class="text-break"><i class="fas fa-user-tie" style="color : #007bff; width: 30px"></i><?php echo $data[$i]['name'] ?></a><br>
+                                                    <a href="userprofile.php?uid=<?php echo $data[$i]['_id'] ?>" class="text-break"><i class="fas fa-map-marked-alt" style="color : #007bff; width: 30px"></i> <?php echo $data[$i]['company_name'] ?></a><br>
+                                                    <a href="userprofile.php?uid=<?php echo $data[$i]['_id'] ?>" class="text-break"><i class="fas fa-mobile-alt" style="color : #007bff; width: 30px"></i> <?php echo $data[$i]['mobile'] ?></a><br>
+                                                    <a href="userprofile.php?uid=<?php echo $data[$i]['_id'] ?>" class="text-break"><i class="fas fa-envelope-square" style="color : #007bff; width: 30px"></i> <?php echo $data[$i]['email'] ?></a><br>
                                                 </div>
                                                 <div class="demo col">
                                                     <!-- <div> -->
