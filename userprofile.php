@@ -109,7 +109,7 @@ $data_2 =  $result_user['Data'];
                                                 </div>
                                             </div>
                                         </div>
-                                        <button type="button" class="btnSubmit text-break" style="width:65px;">Submit</button>
+                                        <button type="button" class="btnSubmit text-break" style="width:70px;">Submit</button>
                                     </div>
                                 </div>
                             </div>
