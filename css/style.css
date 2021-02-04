@@ -273,6 +273,7 @@ button.btn:hover {
     }
 }
 
+@media screen and (max-width: 767px) { .mobile-space {margin-top:10px;} }
 
 /**********************************/
 /*********** Nav Bar CSS **********/
