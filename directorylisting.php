@@ -96,7 +96,7 @@ $data_category = $newcategory['Data'];
                                         <div class="container">
                                             <div class="tn-news row">
                                                 <div class="tn-img col">
-                                                    <img class="img-fluid" src="<?php echo $data[$i]['img'] ?>" style="border:1px solid black; height:150px;"/>
+                                                    <img class="img-fluid img-thumbnail" src="<?php echo $data[$i]['img'] ?>" style="border:1px solid black; height:150px;"/>
                                                 </div>
                                                 <div class="tn-title col-6">
                                                     <a href="userprofile.php?uid=<?php echo $data[$i]['_id'] ?>" class="text-break"><i class="fas fa-user-tie" style="color : #007bff; width: 30px"></i><?php echo $data[$i]['name'] ?></a><br>

@@ -57,7 +57,7 @@ $(document).ready(function () {
         console.log("2");
         $.ajax({
             type: "POST",
-            url: "http://localhost:3000/" + "admin/findbykeyword",
+            url: "http://15.207.46.236/" + "admin/findbykeyword",
             data : { "keyword" : $("#inputsearch").val()},
             dataType: "json",
             cache: false,

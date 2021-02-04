@@ -27,7 +27,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="col-lg-4 col-md-4 col-sm-4" style="margin-top:10px;">
                 <div class="social ml-auto">
                     <a href="https://www.facebook.com/thenationaldawn/"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://twitter.com/thenationaldawn"><i class="fab fa-twitter"></i></a>
