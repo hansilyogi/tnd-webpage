@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/index.js"></script>
 <div class="brand">
     <div class="container">
         <div class="row align-items-center">
@@ -17,11 +19,11 @@
                 </form>
             </div> -->
             <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="input-group rounded">
+                <div class="input-group rounded" id="search_bar">
                     <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                        aria-describedby="search-addon" />
-                    <span class="input-group-text border-0" id="search-addon">
-                        <i class="fas fa-search"></i>
+                        aria-describedby="search-addon" id="inputsearch"/>
+                    <span class="input-group-text border-0">
+                        <i class="fas fa-search" id="search-addon"></i>
                     </span>
                 </div>
             </div>
